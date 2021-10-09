@@ -1,0 +1,14 @@
+
+#/etc/systemd/system
+
+[Unit]
+Description=RTL_433
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/pi/Wetterstation-Privat/rtl_433_sql.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
