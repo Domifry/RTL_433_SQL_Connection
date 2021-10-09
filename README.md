@@ -1,6 +1,6 @@
 This Script use the Code of <a href="https://github.com/merbanan/rtl_433">rtl_433</a>
 This Script helps you to push every 15 Minutes the current Data of Sensors to a SQL Database.
-The Script start the Stick and reads out for a certain time until it receives one value of every sensor. If it successfull it puts the JSON Data in a SQL Table and sleeps for 15 Minutes. 
+The Script starts the Stick and reads out for a certain time until it receives one value of every sensor. If it successfull it puts the JSON Data in a SQL Table and sleeps for 15 Minutes. 
 If it fails for 100 times it restart the script and after 150 Times it ends the script and you can implement via Pushhover a notication or somehting that you have to restart it. This is just a monitoring notification that maybe one of your sensors is broken.
 
 # Requirements
