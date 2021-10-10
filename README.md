@@ -43,10 +43,10 @@ If it fails for 100 times it restart the script and after 150 Times it ends the 
 * You can change the 433.9 to 433.8 and many more to find out your sensors
 * or try it in the console directly: sudo rtl_433 -F json -f 433.9M
 
-# Sensors ahd Hardware
+# Sensors and Hardware
 I use this sensors and they work fine!
 * Temperature: <a href="https://amzn.to/3oPndbq">TFA Dostmann Thermo-Hygro-Sender, 30.3221.02</a>
-* Rain: <ahref ="https://amzn.to/3Dqihh4">TFA Dostmann 30.3222.02</a>
+* Rain: <a href ="https://amzn.to/3Dqihh4">TFA Dostmann 30.3222.02</a>
 * Wind: <a href="https://amzn.to/30eydor">TFA Dostmann 30.3161 </a> (I will test this sensor until 15.10.21 and give an Update)
 * Stick: <a href="https://amzn.to/3anco7Z"> RTL-SDR Stick </a>
 * Antenna: <a href="https://amzn.to/3aExHlH"> Delock 88877 ISM SMA Omni Star  </a>
