@@ -47,7 +47,7 @@ If it fails for 100 times it restart the script and after 150 Times it ends the 
 I use this sensors and they work fine!
 * Temperature: <a href="https://amzn.to/3oPndbq">TFA Dostmann Thermo-Hygro-Sender, 30.3221.02</a>
 * Rain: <a href ="https://amzn.to/3Dqihh4">TFA Dostmann 30.3222.02</a>
-* Wind: <a href="https://amzn.to/30eydor">TFA Dostmann 30.3161 </a> (I will test this sensor until 15.10.21 and give an Update)
+* Wind: <a href="https://amzn.to/30eydor">TFA Dostmann 30.3161 </a>
 * Stick: <a href="https://amzn.to/3anco7Z"> RTL-SDR Stick </a>
 * Antenna: <a href="https://amzn.to/3aExHlH"> Delock 88877 ISM SMA Omni Star  </a>
 * Active USB HUB (Energy): <a href="https://amzn.to/3arlGj8"> CSL USB HUB </a>
