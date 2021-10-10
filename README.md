@@ -36,3 +36,14 @@ If it fails for 100 times it restart the script and after 150 Times it ends the 
 * sudo systemctl start SQL_RTL_433.service
 * Check it : sudo systemctl status SQL_RTL_433.service
 
+# Troubleshooting
+
+* If you do not find your Sensors try:
+* proc = subprocess.Popen(['rtl_433','-R', '73', '-F', 'json','-f', '433.9M'], stdout=subprocess.PIPE)
+* You can change the 433.9 to 433.8 and many more to find out your sensors
+
+# Sensors
+I use this sensors and they work fine!
+* Temperature: <a href="https://amzn.to/3oPndbq">TFA Dostmann Thermo-Hygro-Sender, 30.3221.02</a>
+* Rain: TFA Dostmann 30.3222.02
+* Wind: <a href="https://amzn.to/30eydor">TFA Dostmann 30.3161 </a> (I will test this sensor until 15.10.21 and give an Update)
