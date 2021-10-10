@@ -51,3 +51,10 @@ I use this sensors and they work fine!
 * Stick: <a href="https://amzn.to/3anco7Z"> RTL-SDR Stick </a>
 * Antenna: <a href="https://amzn.to/3aExHlH"> Delock 88877 ISM SMA Omni Star  </a>
 * Active USB HUB (Energy): <a href="https://amzn.to/3arlGj8"> CSL USB HUB </a>
+
+# Find out your Sensors ID
+* sudo rtl_433 -F json
+* Check your sensors and write down the ID's
+* Put it in your file and what you want like:
+* if "12345" in json and sensor3 == False and "wind_avg_km_h" in json: (for the Wind Sensor)
+* Other wise you normally use: if "12345" in json and sensor2 == False (for temperature and humandity)
