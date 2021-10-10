@@ -36,6 +36,10 @@ If it fails for 100 times it restart the script and after 150 Times it ends the 
 * sudo systemctl start SQL_RTL_433.service
 * Check it : sudo systemctl status SQL_RTL_433.service
 
+# PHP File
+* I included for you a PHP File how to extract the Data
+* Just out in your data and read the comments in the file
+
 # Troubleshooting
 
 * If you do not find your Sensors try:
