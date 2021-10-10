@@ -27,10 +27,11 @@ $row = $result->fetch_array();
 $json = $row['rownameinsert'];
 $json1 = json_decode($json,true);
 
-//put in the value you need
+//put in the value you need - find out more by checking the JSON Files in your Database
 $wind = $json1["wind_avg_km_h"];
-$emperature = $json1
+$temperature = $json1["temperature_C"];
+$humandity = ["humidity"];
 
-//print out the value
+//print out the value - put in the name of variable
 echo($value);
 ?>
