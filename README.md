@@ -41,6 +41,7 @@ If it fails for 100 times it restart the script and after 150 Times it ends the 
 * If you do not find your Sensors try:
 * proc = subprocess.Popen(['rtl_433','-R', '73', '-F', 'json','-f', '433.9M'], stdout=subprocess.PIPE)
 * You can change the 433.9 to 433.8 and many more to find out your sensors
+* or try it in the console directly: sudo rtl_433 -F json -f 433.9M
 
 # Sensors
 I use this sensors and they work fine!
