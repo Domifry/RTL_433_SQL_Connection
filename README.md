@@ -53,7 +53,7 @@ I use this sensors and they work fine!
 * Rain: <a href ="https://amzn.to/3Dqihh4">TFA Dostmann 30.3222.02</a>
 * Wind: <a href="https://amzn.to/30eydor">TFA Dostmann 30.3161 </a>
 * Stick: <a href="https://amzn.to/3anco7Z"> RTL-SDR Stick </a>
-* Antenna: <a href="https://amzn.to/3aExHlH"> Delock 88877 ISM SMA Omni Star  </a>
+* Antenna: Comming soon
 * Active USB HUB (Energy): <a href="https://amzn.to/3arlGj8"> CSL USB HUB </a>
 
 # Find out your Sensors ID
