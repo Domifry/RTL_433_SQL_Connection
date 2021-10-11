@@ -10,7 +10,7 @@ import subprocess
 import os
 import sys
 
-proc = subprocess.Popen(['rtl_433', '-F', 'json'], stdout=subprocess.PIPE)
+proc = subprocess.Popen(['rtl_433', '-R', '73', '-R','37', '-F', 'json'], stdout=subprocess.PIPE)
 sensor1 = False
 sensor2 = False
 json1 = line.rstrip()
@@ -43,7 +43,7 @@ while True:
      cursor.execute(statement)
      sensor2 = True
    if counter == 100:
-     proc = subprocess.Popen(['rtl_433', '-F', 'json'], stdout=subprocess.PIPE)
+     proc = subprocess.Popen(['rtl_433', '-R', '73', '-R','37', '-F', 'json'], stdout=subprocess.PIPE)
    if counter == 150:
      break
      #here you can send yourself a Mail or a push
