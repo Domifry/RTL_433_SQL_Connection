@@ -44,8 +44,10 @@ If it fails for 100 times it restart the script and after 150 Times it ends the 
 
 * If you do not find your Sensors try:
 * proc = subprocess.Popen(['rtl_433','-R', '73', '-F', 'json','-f', '433.9M'], stdout=subprocess.PIPE)
-* You can change the 433.9 to 433.8 and many more to find out your sensors
-* or try it in the console directly: sudo rtl_433 -F json -f 433.9M
+* You can change the 433.9 to 433.8 or 433.95 or 433.85 and many more to find out your sensors
+* or try it in the console directly: sudo rtl_433 -f 433.9M
+* If you dont find it out just try sudo rtl_433 -M level (you see the frequency of the sensors)
+* My perfect frequency for this sensors is 433.95M
 
 # Sensors and Hardware
 I use this sensors and they work fine!
