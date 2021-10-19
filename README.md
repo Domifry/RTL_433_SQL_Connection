@@ -64,3 +64,6 @@ I use this sensors and they work fine!
 * Put it in your file and what you want like:
 * if "12345" in json and sensor3 == False and "wind_avg_km_h" in json: (for the Wind Sensor)
 * Other wise you normally use: if "12345" in json and sensor2 == False (for temperature and humandity)
+
+# Cooling
+The Stick gets hot after a few hours or sometimes after 20 Minutes (cheap one - 20 Dollars). I am currently working on a solution to cool it. 
