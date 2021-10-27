@@ -66,4 +66,4 @@ I use this sensors and they work fine!
 * Other wise you normally use: if "12345" in json and sensor2 == False (for temperature and humandity)
 
 # Cooling
-The Stick gets hot after a few hours or sometimes after 20 Minutes (cheap one - 20 Dollars). I am currently working on a solution to cool it. 
+The Stick gets hot after a few hours or sometimes after 20 Minutes (cheap one - 20 Dollars). I buyed a fan and cooled it with 3,3V and it works now since a few days! 
