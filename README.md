@@ -8,22 +8,18 @@ If it fails for 100 times it restart the script and after 150 Times it ends the 
 * pip install mysql-connector-python
 * pip install python3
 * <b>Install RTL_SDR first </b>
+* sudo apt-get install build-essential cmake
 * git clone git://git.osmocom.org/rtl-sdr.git
 * cd rtl-sdr
-* mkdir build
-* cd build
-* cmake -DDETACH_KERNEL_DRIVER=ON ../
-* make
+* sudo mkdir build
+* sudo apt-get install -y libusb-1.0-0
+* sudo apt install libusb-1.0-0-dev
+* sudo cmake -DDETACH_KERNEL_DRIVER=ON ../
+* sudo make
 * sudo make install
 * sudo ldconfig
 * <b>Install RTL_433 with this codes </b>
-* git clone git://github.com/merbanan/rtl_433
-* cd rtl_433
-* mkdir build
-* cd build
-* cmake ../
-* make
-* sudo make install
+* sudo apt-get install rtl-433
 
 # Doing
 
