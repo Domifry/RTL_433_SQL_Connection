@@ -10,7 +10,7 @@ import subprocess
 import os
 import sys
 
-proc = subprocess.Popen(['rtl_433', '-R', '73', '-R','37', '-F', 'json'], stdout=subprocess.PIPE)
+proc = subprocess.Popen(['rtl_433', '-R', '73', '-R','37', '-R', '-165', '-F', 'json'], stdout=subprocess.PIPE)
 sensor1 = False
 sensor2 = False
 json1 = line.rstrip()
