@@ -9,6 +9,7 @@ If it fails for 100 times it restart the script and after 150 Times it ends the 
 * pip install python3
 * <b>Install RTL_SDR first </b>
 * sudo apt-get install build-essential cmake
+* sudo apt install git-all
 * git clone git://git.osmocom.org/rtl-sdr.git
 * cd rtl-sdr
 * sudo mkdir build
